@@ -36,7 +36,9 @@ npm run build
 Locally preview production build:
 
 ```bash
-npm run preview
+npm run preview server/
+or
+node server/.output/server/node-cluster.index.mjs
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
