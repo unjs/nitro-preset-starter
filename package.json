@@ -8,6 +8,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "npm:nuxt3@latest"
+    "defu": "^6.1.0",
+    "nuxt": "npm:nuxt3@latest",
+    "ufo": "^0.8.5",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5"
   }
 }
