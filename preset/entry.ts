@@ -1,7 +1,8 @@
 import '#internal/nitro/virtual/polyfill'
 import { Server } from 'node:http'
 
-const server = new Server()
+const nitroApp = useNitroApp()
+const server = new Server(nitroApp.h3App.nodeHandler)
 
 // @ts-ignore
 server.listen(3000, (err) => {
