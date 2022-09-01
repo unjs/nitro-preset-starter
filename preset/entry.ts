@@ -13,6 +13,6 @@ server.listen(3000, (err) => {
   console.log(`Listening on http://localhost:3000 (custom preset)`)
 })
 
-server.on('request', () => {
-  console.log(`PID: ${process.pid}`)
+server.on('request', (req) => {
+  console.log(`PID: ${process.pid}, path: ${req.url}`)
 })
