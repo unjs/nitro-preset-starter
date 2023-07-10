@@ -1,5 +1,5 @@
-import { defineNitroConfig } from 'nitropack'
+import { defineNitroConfig } from "nitropack/config";
 
 export default defineNitroConfig({
-  extends: './preset/index.ts'
-})
+  preset: "./preset",
+});
